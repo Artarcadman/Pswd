@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -23,7 +24,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 py-4">
             <div className="font-bold text-lg">PsWd</div>
             <nav className="hidden md:flex space-x-6">
-              <a className="link link-hover">FAQ</a>
+              <Link className="link link-hover" href="/FAQ">FAQ</Link>
             </nav>
           </div>
         </header>
