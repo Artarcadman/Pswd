@@ -11,7 +11,7 @@ export default function Home() {
   }, [inputValue]);
 
   const handleInputChange = (e) => {
-    if (e.target.value.length <= 256) { setInputValue(e.target.value);}
+    if (e.target.value.length <= 18) { setInputValue(e.target.value);}
 
   };
 
@@ -62,7 +62,7 @@ export default function Home() {
         <section className="text-center">
 
         <p className="text-error font-bold">
-          {counter >= 256 ? "limit reached!" : ""}
+          {counter >= 18 ? "limit reached!" : ""}
         </p>
           
           
