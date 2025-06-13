@@ -1,7 +1,8 @@
 'use client'
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
+import Demo from "/public/assets/Demo.JPG"
 export default function Home() {
 
   const [inputValue, setInputValue] = useState("");
@@ -34,6 +35,8 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6">
             Welcome to PsWd
           </h1>
+
+          <Image src={Demo} alt="Demo"/>
         </section>
 
 

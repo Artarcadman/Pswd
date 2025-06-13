@@ -4,12 +4,12 @@ export default function FAQ() {
   return (
     <main className="min-h-screen bg-base-200 text-base-content px-4 py-2 flex justify-center items-center">
       <section className="flex w-full max-w-4xl gap-12">
-        {/* Заголовок слева */}
+
         <div className="w-2/5 flex justify-end">
           <h1 className="text-5xl font-extrabold text-left">FAQ</h1>
         </div>
 
-        {/* Вопросы справа */}
+
         <div className="w-3/5">
           <ul className="space-y-4">
             {[
